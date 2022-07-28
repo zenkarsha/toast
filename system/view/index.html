@@ -1,0 +1,38 @@
+---
+$title
+$description
+$path
+$copyright
+---
+
+<div class="row">
+  <div class="col-sm-6 col-md-7 col-lg-8">
+    <div class="preview">
+      <div id="coverprint"></div>
+      <div id="loading"><div><img src="{{$path}}images/loading.gif"></div></div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-5 col-lg-4" id="generator">
+    <h1>{{$title}}</h1>
+    <h2>{{$description}}</h2>
+    <form role="form" action="generate" id="generateForm" class="form-horizontal"  method="post">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="form-group">
+            <label class="col-xs-4 col-sm-4 col-md-3 text-center control-label">吐司內容</label>
+            <div class="col-xs-8 col-sm-8 col-md-9">
+              <textarea name="text" id="text" class="form-control" placeholder="想記些什麼？" required></textarea>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12">
+              <button type="button" class="submit btn btn-default btn-block btn-lg" id="default-submit"><i class="fa fa-cloud-download"></i> 下載圖片</button>
+            </div>
+          </div>
+          <input type="hidden" value="" name="directpost" id="directpost">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

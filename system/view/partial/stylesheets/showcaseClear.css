@@ -1,0 +1,12 @@
+.navbar {
+  display: none;
+}
+#content {
+  margin-top: 20px;
+}
+.left-bottom-corner {
+  display: none;
+}
+#footer {
+  display: none;
+}

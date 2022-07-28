@@ -1,0 +1,14 @@
+// main color
+$main-color: $white;
+$main-color-light    : lighten($main-color, 10%);
+$main-color-dark     : darken($main-color, 10%);
+
+// background color
+$background-color : $white;
+
+// text-color
+$text-color       : $doraemon-blue;
+
+// link color
+$link-color       : $text-black;
+$link-color-hover : $text-black-light;

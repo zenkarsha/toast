@@ -1,0 +1,24 @@
+---
+$path
+$total
+$showcase-list
+---
+
+<div class="row">
+  <div class="col-sm-12">
+    <h2>目前有 {{$total}} 片吐司</h2>
+    <ul class="nav nav-tabs nav-justified" style="margin-bottom:20px;">
+      <li role="presentation" class=""><a href="{{$path}}wall"><i class="fa fa-bolt"></i> 最新吐司</a></li>
+      <li role="presentation" class="active"><a href="{{$path}}hot"><i class="fa fa-star"></i> 熱門吐司</a></li>
+    </ul>
+    <div class="row" id="showcase-list">
+    {{$showcase-list}}
+    </div>
+    <div class="load-more">
+      <a class="btn btn-default">載入更多吐司</a>
+    </div>
+    <div class="ajax-loading"><img src="{{$path}}images/loadmore.gif" width="48" height="48"></div>
+    <input type="hidden" id="page" value="0">
+    <input type="hidden" id="is-loading" value="0">
+  </div>
+</div>

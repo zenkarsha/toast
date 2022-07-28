@@ -1,0 +1,35 @@
+---
+$path
+$url
+$image
+---
+
+<div class="row" style="max-width: 420px; margin: 0 auto;">
+  <div class="col-sm-12 text-center">
+    <div class="well well-sm text-center">
+      <img src="{{$path}}{{$image}}" class="img-responsive flip-item">
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
+        本頁分享網址： <a href="{{$path}}{{$url}}">{{$path}}{{$url}}</a>
+        <hr>
+      </div>
+      <div class="col-xs-12 col-sm-4">
+        <div class="fb-like" data-href="{{$path}}{{$url}}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+      </div>
+      <div class="col-xs-6 col-sm-4">
+        <a href="{{$path}}" class="btn btn-link" target="_parent"><i class="fa fa-plus-square-o"></i> 製作吐司</a>
+      </div>
+      <div class="col-xs-6 col-sm-4">
+        <a href="{{$path}}showcase" class="btn btn-link" target="_parent"><i class="fa fa-th-large"></i> 更多吐司</a>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-xs-12">
+        <fb:comments href="{{$path}}{{$url}}" num_posts="3" width="100%"></fb:comments>
+      </div>
+    </div>
+    <div class="left-bottom-corner"><div class="fb-like-box" data-href="https://www.facebook.com/kxgen" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div></div>
+  </div>
+</div>

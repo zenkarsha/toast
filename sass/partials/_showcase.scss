@@ -1,0 +1,21 @@
+.ajax-loading {
+  display: none;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+}
+.load-more {
+  text-align: center;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.flip-item:hover {
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}

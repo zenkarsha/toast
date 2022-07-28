@@ -1,0 +1,20 @@
+.btn-lg, .btn-group-lg>.btn {
+  line-height: 1;
+}
+.btn-default {
+  color: $white;
+  background-color: $doraemon-blue;
+  border-color: $doraemon-blue-dark;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active,
+.btn-default.active {
+  color: $white;
+  background-color: $doraemon-blue-light;
+  border-color: $doraemon-blue;
+}
+.btn-default:active,
+.btn-default.active {
+  background-image: none;
+}

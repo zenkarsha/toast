@@ -1,0 +1,14 @@
+// gray
+$white : #FFFFFE;
+$black : #000000;
+
+// text color
+$text-black         : #666;
+$text-black-light   : #999;
+$text-gray          : #8A8A8A;
+$text-gray-light    : lighten($text-gray, 10%);
+
+//doraemon blue
+$doraemon-blue          : #0272CA;
+$doraemon-blue-light    : lighten($doraemon-blue, 10%);
+$doraemon-blue-dark     : darken($doraemon-blue, 10%);
